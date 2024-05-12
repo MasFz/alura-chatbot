@@ -1,0 +1,36 @@
+Guia do Estagiário de TI: Processos de Compras e Gestão de Fornecimento
+
+Bem-vindo ao guia do estagiário! Este documento oferece uma visão geral dos processos críticos relacionados às compras e gestão de fornecimento na nossa empresa de tecnologia. Ele vai ajudá-lo a entender e executar tarefas essenciais, desde a criação de uma solicitação de compras até o recebimento e inspeção de materiais.
+
+Criando uma Solicitação de Compras
+1. Como iniciar uma solicitação de compras?
+   - Acesse a funcionalidade "Solicitação de Compras" e clique em "Adicionar" para criar uma nova solicitação. É necessário preencher todos os campos obrigatórios. Adicione os itens necessários à sua solicitação, confirme todos os detalhes e, por fim, libere a solicitação usando o menu de contexto (botão direito).
+
+2. Como verificar se uma solicitação está aprovada?
+   - Verifique na aba "Aprovação" se a solicitação de compras foi liberada e aprovada. Caso não haja informações, a solicitação pode não ter passado por um processo de aprovação.
+
+3. Como liberar uma solicitação de compras?
+   - Selecione a opção "Liberar Solicitação" nas opções do menu de contexto da solicitação para concluir o processo de liberação.
+
+Gestão de Fornecimento e Inspeção de Recebimento
+1. Como gerar uma inspeção de recebimento a partir da gestão de fornecimento?
+   - Na tela de gestão de fornecimento, clique com o botão direito sobre o fornecedor desejado e a ordem de compra relacionada, e selecione "Gerar inspeção da ordem de compra". Siga os passos para inspecionar os itens recebidos.
+
+2. Como dar entrada em uma nota fiscal manualmente?
+   - Na funcionalidade "Nota Fiscal", selecione "Adicionar", escolha o tipo de nota e preencha os campos obrigatórios. Salve e, em seguida, gere os itens a partir da ordem de compra associada.
+
+3. O que fazer se a opção de inspecionar recebimento não aparece?
+   - Isso pode acontecer se a inspeção já foi realizada ou se há uma configuração que bloqueia essa opção. Consulte a função "Inspeção Recebimento" para verificar se a inspeção foi completada.
+
+Processamento e Aprovação de Compras
+1. Como criar e aprovar uma ordem de compra a partir de uma cotação?
+   - Após calcular e aprovar a cotação de compras, clique com o botão direito e selecione "Gerar Ordem de Compra". Certifique-se de que todos os itens e valores estão corretos antes de finalizar a ordem de compra.
+
+2. Como saber se minha ordem de compra está aprovada?
+   - Na funcionalidade de consulta da ordem de compra, você pode verificar se existem pendências de aprovação.
+
+Questões Técnicas e Suporte
+1. Como solicitar suporte para problemas técnicos, como um local de estoque não disponível?
+   - Verifique se o setor associado ao seu usuário está correto e se há vínculo com o local de estoque. Se o problema persistir, entre em contato com o suporte técnico ou o seu superior para assistência adicional.
+
+Este guia deve ajudá-lo a navegar pelas suas primeiras responsabilidades na gestão de compras e fornecimento dentro da empresa. Não hesite em consultar seus colegas ou supervisores se precisar de mais detalhes ou enfrentar problemas específicos.
