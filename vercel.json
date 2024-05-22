@@ -1,22 +1,5 @@
 {
-    "version": 2,
-    "name": "seu-chatbot",
-    "builds": [
-      {
-        "src": "chatbot_flask.py",
-        "use": "@vercel/python",
-        "config": {
-          "runtime": "python3.x"
-        }
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/index.html",
-        "headers": {
-          "Cache-Control": "no-cache"
-        }
-      }
-    ]
-  }
+  "rewrites": [
+    {"source": "/(.*)", "destination": "/app/chatbot_flask"}
+  ]
+}

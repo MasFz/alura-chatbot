@@ -1,9 +1,12 @@
 annotated-types==0.6.0
+blinker==1.8.2
 cachetools==5.3.3
 certifi==2024.2.2
 charset-normalizer==3.3.2
+click==8.1.7
 faiss-cpu==1.8.0
 filelock==3.14.0
+Flask==3.0.3
 fsspec==2024.3.1
 google-ai-generativelanguage==0.6.2
 google-api-core==2.19.0
@@ -17,6 +20,7 @@ grpcio-status==1.62.2
 httplib2==0.22.0
 huggingface-hub==0.23.0
 idna==3.7
+itsdangerous==2.2.0
 Jinja2==3.1.4
 joblib==1.4.2
 MarkupSafe==2.1.5
@@ -68,3 +72,4 @@ typing_extensions==4.11.0
 tzdata==2024.1
 uritemplate==4.1.1
 urllib3==2.2.1
+Werkzeug==3.0.3
