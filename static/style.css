@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;700&display=swap');
+
+body {
+    background-color: rgb(33, 34, 47);
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+main {
+    background-color: #09091a;
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 20px;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+}
+
+nav h1 {
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.chat {
+    display: solid;
+    width: 100%;
+    height: 60vh;
+    overflow-y: auto;
+}
+
+.input-box {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.input-box input {
+    width: calc(100% - 120px);
+    height: 80px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(33, 34, 47);
+    padding-left: 20px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.input-box button {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    padding: 0px;
+    border-radius: 10px;
+    border: none;
+}
+
+.input-box img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.message {
+    display: inline-block;
+    max-width: 100%;
+    width: auto;
+    min-height: 50px;
+    justify-content: center;
+    margin: 10px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.user {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.user p {
+    display: inline-block;
+    justify-content: flex-end;
+}
+
+.bot {
+    align-items: center;
+}
+
+p {
+    margin: 0px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(33, 34, 47);
+    font-family: 'Segoe UI', sans-serif;
+}

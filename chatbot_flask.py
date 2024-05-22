@@ -1,3 +1,4 @@
+from flask import Flask, render_template, request, jsonify
 import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 
@@ -15,7 +16,7 @@ genai.configure(api_key=GOOGLE_API_KEY)
 # Carrega o modelo de embeddings de frases
 sentence_model = SentenceTransformer('all-mpnet-base-v2')
 
-# Carrega o conteúdo do arquivo guia.txt
+# Carrega o conteúdo do arquivo compras.txt
 with open('data/compras.txt', 'r') as f:
     guia_content = f.read()
 
@@ -51,11 +52,20 @@ model = genai.GenerativeModel(
 # Define a instrução ao sistema
 system_instruction = "Você é um assistente de um sistema dentro de uma nova empresa chamada Kaizen que explica tudo de maneira clara e objetiva."
 
-# Loop principal do chatbot
-prompt = input("Insira o seu prompt: ")
-while prompt != "sair":
+app = Flask(__name__)
+
+@app.route("/", methods=["GET"])
+def index_get():
+    return render_template("index.html")
+
+@app.route("/predict", methods=["POST"])
+def predict():
+    text = request.get_json().get("message")
+    if not text:
+        return jsonify({"error": "No message provided"}), 400
+
     # Gera o embedding da pergunta do usuário
-    question_embedding = sentence_model.encode([prompt])[0]
+    question_embedding = sentence_model.encode([text])[0]
 
     # Busca os vizinhos mais próximos no índice
     D, I = index.search(question_embedding.reshape(1, -1), k=3)
@@ -64,11 +74,14 @@ while prompt != "sair":
     relevant_sentences = [guia_sentences[i] for i in I[0]]
 
     # Cria o prompt completo com o contexto do documento e a system instruction
-    full_prompt = f"{system_instruction}\nContexto:\n{''.join(relevant_sentences)}\n\nPergunta:\n{prompt}"
+    full_prompt = f"{system_instruction}\nContexto:\n{''.join(relevant_sentences)}\n\nPergunta:\n{text}"
 
     # Envia a mensagem e recebe a resposta
     response = model.generate_content(full_prompt)
-    print("Resposta: ", response.text, "\n")
+    answer = response.text
 
-    # Obtém o próximo prompt do usuário
-    prompt = input("Insira o seu prompt: ")
+    message = {"answer": answer}
+    return jsonify(message)
+
+if __name__ == "__main__":
+    app.run(debug=True)

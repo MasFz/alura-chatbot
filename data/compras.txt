@@ -1,0 +1,190 @@
+Como gerar uma nota fiscal a partir de uma inspeção de recebimento?
+
+Na função inspeção recebimento, depois da inspção ter sido liberada, clicar com botão direito, "gerar - nota fiscal". Preencher dados da nota fiscal, após preenchimento, seremos levados para a função Nota fiscal.Duplo clique no registro da nota fiscal, aba itens, botão direito, "gerar itens a partir da ordem compra". Aba vencimentos, onde o vencimento junto de seu valor pode ser inserido manualmente ou por, botão direito, "atualizar total da nota". Caso a instituição exija o anexo da nota fiscal, anexar documento na aba "anexos".Voltar para registro da Nota fiscal, calcular nota fiscal.
+
+
+Como dar entrada numa nota fiscal de maneira manual?
+
+Clicar em adicionar, selecionar tipo de nota, preencher campos obrigatórios, salvar. Duplo clique no registro da nota fiscal, aba itens, botão direito, "gerar itens a partir da ordem compra". Aba vencimentos, onde o vencimento junto de seu valor pode ser inserido manualmente ou por, botão direito, "atualizar total da nota". Caso a instituição exija o anexo da nota fiscal, anexar documento na aba "anexos". Voltar para registro da Nota fiscal, calcular nota fiscal.
+
+
+O Que significa a aba "Divergências" no processo de compras, na Inspeção de Recebimento?
+
+Aqui podemos visualizar e aceitar as divergências geradas no momento da tentativa de liberação da inspeção recebimento. Clicar com botão direito, "aceitar divergências"
+
+
+O Que é a aba de "Itens a inspecionar" em Inspeção de Recebimento?
+
+Nesta aba devemos realizar a contagem dos itens, sempre importante preencher o lote do item, caso seja um item estocável. Clicar em adicionar na tela da direita, preencher campos e salvar.
+
+
+O que é a aba de Avaliação na Inspeção de Recebimento?
+
+Avaliação dinâmica, adicionar registro, definindo qual avaliação estará sendo feita, material ou serviço. Clicar com botão direito e "gerar perguntas", clicar duas vezes no registro, botão direito na tela direita da pergunta, clicar com botão direito e "informar nota". Voltar para o registro da avaliação , botão direito, "aprovar avaliação".
+
+
+Como gerar uma inspeção de recebimento a partir da gestão de fornecimento?
+
+Clicando em cima do fornecedor desejado e da ordem compra desejada (caso haja mais de uma ordem para o fornecedor), clicamos com botão direito "Gerar inspeção da ordem de compra". Selecionar itens a inspecionar, onde seremos levados para realizar a inspeção de recebimento. Clicamos duas vezes no registro de inspeção para acessar as abas da inspeção. Após preenchimento das abas, liberar inspeção.
+
+
+quando a opção de Inspecionar Recebimento não aparece na Gestão de Fornecimento?
+
+Quando esta opção não aparece para nós, podemos ter duas situações. A inspeção ja foi feita (Podemos consultar via chamada externa para função inspeção recebimento) ou existe uma parametrização por trás, bloqueando a ação.
+
+
+Porque a Ordem de Compra não tem aprovadores na aba Aprovação?
+
+Nos casos onde na aba de aprovações não aparece nenhum aprovador, podemos levar em consideração duas situações, a ordem não está liberada ou o/os item/itens da ordem compra não se encaixa em nenhum processo de aprovação.
+
+
+Como posso consultar quem são os aprovadores da minha Ordem de Compra?
+
+Na aba "consulta", sub aba "Aprovações", conseguimos ter a informação de para qual processo de aprovação a ordem compra seguiu.
+
+
+Qual processo de suprimentos posso ajudar?
+
+Processo de Compras; Aprovações de Compras; Cadastros de Fornecedor; Controle de Contratos
+
+
+Qual Processo de Compras posso ajudar?
+
+Solicitação de Compras; Cotação de Compras; Ordem de Compra; Gestão de Fornecimento; Inspeção de Recebimento; Nota Fiscal
+
+
+Como consultar aprovação de uma solicitação?
+
+Para conferir se a Solicitação de Compras está aprovada, basta selecionar a aba de Aprovação que mostrará quem deve aprovar e se está ou não pendente. Caso não apareça nenhuma informação, não há processo de aprovação para a solicitação consultada. É sempre importante consultar se a Solicitação está liberada, visto que apenas solicitações liberadas irão para aprovação.
+
+
+Como criar uma solicitação de Compras?
+
+Para criar uma nova Solicitação de Compras, é Necessário abrir a funcionalidade Solicitação de Compras e adicionar uma nova solicitação do lado esquerdo da tela, sempre sendo necessário preencher os campos obrigatórios. Depois é necessário adicionar os itens presentes na solicitação de compras, no lado direito da tela, e para finalizar o processo é necessário Liberar a solicitação, clicando na mesma com botão direito. Sua solicitação apresenta algum dos erros abaixo?
+
+
+Meu local de estoque não aparece
+
+A liberação de Locais de Estoque é vinculada aos setores vinculados para o usuário, verifique se o usuário possui o setor correto liberado e se o setor esta vinculado ao local de estoque correto. Caso não funcione, solicite suporte a seu superior.
+
+
+Como liberar uma solicitação de compras
+
+Para Liberar a Solicitação de Compras é necessário selecionar a opção Liberar Solicitação nas opções do botão direito da Solicitação. É importante verificar se todos os campos estão preenchidos para a liberação da Solicitação de Compras
+
+
+Como dividir as entregas na solicitação de compras?
+
+Para que sua entrega seja realizada em períodos de tempos diferentes, é necessário clicar 2 vezes no item, ir na aba de entregas e adicionar o quanto deseja que seja entregue com sua data correspondente.
+
+
+Como podemos exportar uma cotação?
+
+Podemos Importar uma cotação via WEB, E-mail ou salvando o PDF da mesma.
+
+
+Como colocar preço nos itens da cotação?
+
+Para colocar os preços dos itens manualmente, é necessário selecionar o Item, O fornecedor e então adicionar o valor no campo de Valor Unitário.
+
+
+Como finalizar a cotação de Compras?
+
+Para finalizar a Cotação é necessário Calcular a mesma, na aba de Cotações, com a opção do botão direito de Calcular Cotações, estando pronta para ter uma Ordem Compra gerada.
+
+
+Como gerar uma ordem de compra a partir de uma cotação?
+
+Para Gerar Ordem Compra é necessário que a Cotação esteja calculada, com isso podemos selecionar o botão direito e Gerar Ordem Compra.
+
+
+Como calcular uma cotação de compras?
+
+Para Calcular a Cotação é necessário clicar com Botão Direito e selecionar a opção de Calcular Cotação, lembrando que a Cotação deve atender os requisitos do cliente, como quantidade mínima de fornecedores por exemplo ou valores nos itens.
+
+
+Como refazer uma cotação de compras?
+
+Para Refazer a Cotação, é necessário que não tenham processos posteriores da cotação como Ordem Compra. Com isso selecionamos a opção de desfazer cálculo da cotação, assim podendo alterar o que for desejado.
+
+
+Como cancelar uma cotação de compras?
+
+Para cancelar a Cotação, Na página inicial da Cotação, com botão direito, devemos selecionar a opção Cancelar Cotação. Lembrando que a liberação para tal ação é restrita por Perfis de acordo com o Cliente.
+
+
+Como visualizar minha Ordem de Compras?
+
+Para visualizar a Ordem Compra ja criada, é necessário abrir a funcionalidade e filtrar a Ordem Compra de acordo com os filtros disponíveis para que seja possível localiza-la.
+
+
+Como sei qual cotação gerou minha Ordem de Compras?
+
+Para saber quais os processos que antecederam a Ordem Compra, na tela inicial, devemos clicar com botão direito e selecionar a opção de mostrar Cotações que geraram a Ordem.
+
+
+Como vejo se minha Ordem de Compra está aprovada?
+
+Na aba de Consulta da Ordem Compra podemos verificar as pendências de aprovação. Lembrando que apenas as Ordem Compra liberadas estarão com pendência de Aprovação.
+
+
+Preciso liberar minha ordem de compra?
+
+Para que os processos de Compras sejam concluídos, é necessário a liberação da Ordem Compra, para que assim a mesma vá para os processos de aprovação e seja dado seguimento nos processos.
+
+
+Como sei se minha Ordem de Compra está liberada?
+
+Na tela Inicial da Ordem Compra, há um campo que diz Data Liberação, que mostra a data em que a Ordem Compra foi liberada.
+
+
+Onde consulto minhas entregas da minha Ordem de Compras?
+
+Na aba de Consulta da Ordem Compra podemos verificar as entregas que faltam ser realizadas da Ordem Compra, assim como as entregas que ja foram realizadas.
+
+
+Como receber os itens da Ordem de Compras?
+
+Para Recebimento do Material é necessária a entrada de Nota Fiscal do produto. Lembrando que alguns clientes possuem processo de Inspeção de Recebimento, que antecede a Nota Fiscal.
+
+
+Como saber a entrega dos meus materiais?
+
+Podemos conferir as entregas pela funcionalidade Gestão de Fornecimento.Divididas por data onde conseguimos identificar a quantidade de fornecedores por data de entrega.Cada fornecedor pode apresentar mais de uma ordem compra para data de entrega.
+
+
+Como inspecionar os materias no Tasy?
+
+Podemos Inspecionar os materiais com a opção de Inspecionar Ordem Compra diretamente da Gestão de Fornecimento. Podemos também criar uma inspeção de recebimento pulando a etapa da gestão de fornecimento, inserindo as informações manualmente.
+
+
+Como dar entrada em Nota Fiscal?
+
+Para realizar entrada da Nota Fiscal é preciso estar com as informações da mesma e inserir as informações na funcionalidade da Nota Fiscal e ao final do processo, calcular a mesma, lembrando que alguns cliente necessitam do processo de Inspeção de Recebimento antes da entrada da Nota Fiscal, Verifique também as consistências da NF para que seja possível calcular a mesma.
+
+
+Como conferir um lote validade do material?
+
+A Conferência de Lote Validade deve ser realizada por item dentro da funcionalidade de Nota Fiscal, podendo possuir mais de 1 Lote Validade por item, sendo necessários informar as quantidades e lotes de acordo com as regras do cliente.
+
+
+Como conferir a quantidade de materiais?
+
+A Conferência de quantidade do material é realizada dentro da aba de itens, onde podemos colocar a quantidade de material que esta sendo realizada a entrada.
+
+
+Como alterar uma Ordem de Compra?
+
+A Ordem Compra so pode ser alterada caso não esteja liberada, podendo assim ser alterada, mudando os valores nos campos desejados. É possível desfazer a liberação da ordem Compra, lembrando que o perfil para alteração pode ser exclusivo.
+
+
+Como finalizo o processo da Nota Fiscal?
+
+Para finalizar o Processo da Nota Fiscal é necessário calcular a mesma, com botão direito ou com o botão no canto superior da tela (quando na página principal da Nota Fiscal). Lembre-se de conferir as incosistências da Nota para o cálculo da mesma.
+
+
+Como calcular uma Nota Fiscal?
+
+Para Calcular a Nota Fiscal é necessário que não hajam incosistências que impactem o processo, podendo assim ser possível calcular a Nota, com botão direito ou com o botão no canto superior da tela (quando na página principal da Nota Fiscal).
+
+
