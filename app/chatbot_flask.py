@@ -17,7 +17,8 @@ genai.configure(api_key=GOOGLE_API_KEY)
 sentence_model = SentenceTransformer('all-mpnet-base-v2')
 
 # Carrega o conteúdo do arquivo compras.txt
-with open('data/compras.txt', 'r') as f:
+path = os.path.join("data", "compras.txt")
+with open(path, 'r') as f:
     guia_content = f.read()
 
 # Divide o conteúdo em frases
